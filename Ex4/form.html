@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            
+            body{
+                padding-top: auto;
+                padding-left: 600px;
+            }
+            
+            #button
+            {
+                background-color: orange; 
+                color: white;
+            }
+            div{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+        
+    </head>
+    <body >
+            <div>
+                One Account. All of Sirius Working For You.
+            </div>
+            <h1>Create Account</h1>
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" ><br>
+                <br>
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email"><br>
+                <br>
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass" name="password"><br>
+                <br>
+                <label for="contactnumber">Contact Number</label><br>
+                <input  type="number" id="contactnumber" name="contactnumber"><br>
+                <br>
+                <label for="gender">Gender</label><br>
+                <input list="gender" name="gender" placeholder=" Gender"><br>
+                    <datalist id="gender">
+                        <option value="Male">
+                        <option value="Female">
+                    </datalist>
+                <br>
+                <label for="state">State</label><br>
+                <input list="state" name="state" placeholder=" State"><br>
+                    <datalist id="state">
+                        <option value="TamilNadu">
+                        <option value="Karnataka">
+                        <option value="Andhra Pradesh">
+                    </datalist>
+                <br>
+                <label class="label" for="passport">Do you have Passport?</label>
+                <input type="radio" id="yes" name="passport">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="passport">
+                <label for="no">No</label><br>
+                <br>
+                <label for="website">Your Website URL</label><br>
+                <input type="url" id="website" name="website"><br>
+                <br>
+                <input type="checkbox" id="accept" name="terms" >
+                <label for="accept"> I accept the Terms & Conditions</label><br>
+                <br>
+                <input id="button" type="button" onclick="" value="SIGN UP">    
+            </form>
+            
+    </body>
+</html>
