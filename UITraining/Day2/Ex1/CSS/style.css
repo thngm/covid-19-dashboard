@@ -1,0 +1,35 @@
+    .circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-color:red;
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+    }
+    .circle0 {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-color: yellow;
+        position: absolute;
+        z-index: 3;
+        top: 45%;
+    }
+    .circle1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        background-color: green;
+        position: absolute;
+        z-index: 4;
+        top: 80%;
+    }
+    .square {
+        width: 200px;
+        height: 700px;
+        background-color: black;
+        border-style: solid;
+        border-color: black;
+        z-index: 1;
+    }

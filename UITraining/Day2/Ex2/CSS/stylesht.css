@@ -1,0 +1,40 @@
+
+        body{
+            background-color: #FC8019 ;
+        }
+        h2{
+            background-color: purple;
+        }
+        ul li{
+            color: blue;
+        }
+        ul li:first-child {
+            font-weight: bold;
+        }
+        .order-details label{
+            margin-right: 10px;
+        }
+        #offer{
+            border:2px;
+            border-color: red;
+            border-style: solid;
+        }
+        input[type=Text]{
+            background-color: pink;
+        }
+        div p{
+            font-size: 20px;   
+        }
+        div:first-of-type{
+            background-color:white;
+        }
+        .order-details>p:nth-child(2){
+            border-color: black;
+            border-style: solid;
+            border:20px;
+        }
+        
+        input:checked + label{
+            font-style: italic;
+            color: black;
+        }
