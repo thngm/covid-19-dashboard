@@ -3,7 +3,8 @@
     font-family:"lato";
     margin:0px;
 }
-
+/* TODO: Move heading common styles(e.g. font-family) separately instead of repeating */
+/* TODO: Remove unwanted space in CSS file for indentation */
 h1 {
     
     background-color: rgb(56, 6, 56);
@@ -41,7 +42,6 @@ img{
     font-family: "roboto";
     font-size: 2rem;
 }
-
 .container p{
     padding: 1em 0;
 }
@@ -49,10 +49,13 @@ img{
 .content-container{
     margin: 4rem 8rem 2rem;
     display: grid;
+    /* TODO: Have some margin between containers */
+    /* TODO: Check this property */
     grid-gap: 1 rem;
     grid-template-columns: repeat(3, 1fr);
 }
 
+/* TODO: Remove button outline and match with UX */
 button{
    
     padding: 15px 15px;
