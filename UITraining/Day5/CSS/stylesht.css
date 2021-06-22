@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    border:0;
+}
+body{
+    background-color: #cbd4df;
+}
+header{
+    background-color: #2AA3EF;
+    text-align: center;
+    padding: 10px;
+}
+.bg-container img{
+    position:relative;
+    width:100%;
+    height:500px; 
+}
+.logo-container img{
+    position:absolute;
+    top: 400px;
+    left:60px;
+    width:200px;
+    height:200px;
+    border: solid white;
+
+}
+.logo-container button{
+    border: none;
+    background-color: #2AA3EF;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top: 23em;
+    left: 60em;
+}
+.bio{
+    display: inline-block;
+    padding: 55px;
+    margin-top: 10px;
+}
+
+/* CENTER AREA */
+    .center-area{
+        
+        margin-left: 25%;
+        margin-right: 25%;
+        width:54%;
+    }
+    
+    .center-area .box-img{
+        display: grid;
+        grid-template-columns: 50px auto;
+        background-color: white;
+        border: solid 1px #ddd;
+        padding: 20px;
+        margin-bottom: 30px;
+        
+    }
+    .center-area .status{
+        margin-bottom: 30px;
+        position:relative;
+        display: grid;
+        grid-template-columns: 60px auto;
+        background-color: white;
+        border: solid 1px #ddd;
+        padding: 20px;
+        height: 200px;
+
+
+    }
+
+    .center-area .dp-img {
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+    }
+
+
+    .center-area .happening{
+        height: 100%;
+        display: inline-block;   
+        padding: 10px; 
+        background-color: white;                
+    }
+
+    .center-area form input{
+        border: none;
+        font-size: 20px;
+    }
+
+    .center-area form button{
+        border: none;
+        background-color: #2AA3EF;
+        padding: 10px 20px;
+        color: white;
+        font-size: 20px;
+        position:absolute;
+        top: 100px;
+        left: 600px;
+
+    }
+    .tweet{
+        margin-left: 150px;
+        padding: 10px;
+    }
+
+    .user-info-tweet{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .tweet p{
+        margin: 10px 0;
+    }
+
+    .tweet__img{
+        height: 300px;
+        width: 100%;
+        margin-top: 10px;
+        padding:10px;
+    }
+
+    /* RIGHT SIDE */
+    .right-side{
+        top:0;
+        right:0;
+        float: right;
+        position: absolute;
+        margin-top: 43em;
+        margin-left: 50px;
+        padding: 5px;
+    }
+
+    
+    .trending{
+        width: 90%;
+        max-width: 250px;
+        background-color:white;
+        
+    }
+
+    .trend{
+        padding: 20px;
+    }
+
+    .trending h3{
+        margin: 20px 10px;
+        padding:10px;
+    }       

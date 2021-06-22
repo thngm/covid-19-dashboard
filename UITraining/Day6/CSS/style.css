@@ -1,0 +1,56 @@
+body{
+    background-color: #442d4b;
+}
+
+header img{
+    float:left;
+}
+
+#container{
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 10%;
+  padding: 10px;
+}
+
+
+#container div{
+    padding:10px;
+    
+}
+
+.imgContainer{
+    position: relative;
+}
+
+img{
+    height: auto;
+    width: 250px;
+    color:white;
+}
+
+#container div p{
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    width:250px;
+
+}
+#container div h2{
+    text-transform: uppercase;
+    color: white;
+    width:250px;
+
+}
+
+.certificate{
+    background-color: #d0021b;
+    position: absolute;
+    color:white;
+    border-radius: 50%;
+    top:10%;
+    left:80%;
+    width:5%;
+}

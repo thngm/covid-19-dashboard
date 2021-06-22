@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin:none;
+    padding: 0;
+    width: 100vw;
+}
+
+.content-container{
+    padding: 1em 5em;
+}
+
+nav{
+    background-color: #134b82;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    background-color: #134b82;
+    font-size: larger;
+    padding: 0.5em 1em;
+    margin: 0;
+}
+
+.subcontainer{
+    border: 2px solid #134b82;
+    margin: 16px 8px;
+
+}
+
+.container-1{
+    float: left;
+    width: 70%;
+}
+
+.container-2{
+    float: left;
+    width: 30%;
+}
+
+p{
+    padding: 5px;
+}

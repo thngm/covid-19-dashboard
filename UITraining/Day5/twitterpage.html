@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>twitter</title>
+        <link rel="stylesht" href="CSS/stylesht.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+            box-sizing: border-box;
+            margin:0;
+            border:0;
+            }
+            body{
+                background-color: #cbd4df;
+            }
+            header{
+                background-color: #2AA3EF;
+                text-align: center;
+                padding: 10px;
+            }
+            .bg-container img{
+                position:relative;
+                width:100%;
+                height:500px; 
+            }
+            .logo-container img{
+                position:absolute;
+                top: 400px;
+                left:60px;
+                width:200px;
+                height:200px;
+                border: solid white;
+
+            }
+            .logo-container button{
+                border: none;
+                background-color: #2AA3EF;
+                padding: 10px 20px;
+                color: white;
+                font-size: 20px;
+                position:absolute;
+                top: 23em;
+                left: 60em;
+            }
+            .bio{
+                display: inline-block;
+                padding: 55px;
+                margin-top: 10px;
+            }
+
+            /* CENTER AREA */
+                .center-area{
+                    
+                    margin-left: 25%;
+                    margin-right: 25%;
+                    width:54%;
+
+                }
+                
+                .center-area .box-img{
+                    display: grid;
+                    grid-template-columns: 50px auto;
+                    background-color: white;
+                    border: solid 1px #ddd;
+                    padding: 20px;
+                    margin-bottom: 30px;
+                    
+                }
+                .center-area .status{
+                    margin-bottom: 30px;
+                    position:relative;
+                    display: grid;
+                    grid-template-columns: 60px auto;
+                    background-color: white;
+                    border: solid 1px #ddd;
+                    padding: 20px;
+                    height: 200px;
+
+
+                }
+
+                .center-area .dp-img {
+                    width: 200px;
+                    height: 200px;
+                    padding: 5px;
+                }
+
+
+                .center-area .happening{
+                    height: 100%;
+                    display: inline-block;   
+                    padding: 10px; 
+                    background-color: white;                
+                }
+
+                .center-area form input{
+                    border: none;
+                    font-size: 20px;
+                }
+
+                .center-area form button{
+                    border: none;
+                    background-color: #2AA3EF;
+                    padding: 10px 20px;
+                    color: white;
+                    font-size: 20px;
+                    position:absolute;
+                    top: 100px;
+                    left: 600px;
+
+                }
+                .tweet{
+                    margin-left: 150px;
+                    padding: 10px;
+                }
+
+                .user-info-tweet{
+                    display: flex;
+                    margin-top: 20px;
+                }
+
+                .tweet p{
+                    margin: 10px 0;
+                }
+
+                .tweet-img{
+                    height: 300px;
+                    width: 100%;
+                    margin-top: 10px;
+                    padding:10px;
+                }
+
+                /* RIGHT SIDE */
+                .right-side{
+                    top:0;
+                    right:0;
+                    float: right;
+                    position: absolute;
+                    margin-top: 45em;
+                    margin-left: 50px;
+                    padding: 5px;
+                }
+
+                
+                .trending{
+                    width: 90%;
+                    max-width: 250px;
+                    background-color:white;
+                    
+                }
+
+                .trend{
+                    padding: 20px;
+                }
+
+                .trending h3{
+                    margin: 20px 10px;
+                    padding:10px;
+                }       
+
+        </style>
+       
+    </head>
+    <body>
+        <header>
+            <i class="fab fa-twitter"></i>
+        </header>
+        <div class="wrapper">
+            <div class="bg-container">
+                <img src="Images/gandhi.jpg" alt="twitter "/>
+                <div class="logo-container">
+                  <img src="Images/gandhi.jpg" alt="twitter dp"/>
+                  <button class="follow-button">Follow</button>
+                  <div class="bio">
+                    <h1>Mahatma Gandhi</h1>
+                    <h2>@mkGandhi</h2>
+                    <h4>Father of The Nation</h4>
+                  </div>
+                </div>
+            </div>
+            
+            <section class="center-area">
+                <div class="status">
+                    <form class="happening">
+                        <input type="text" placeholder="What's in your mind?">
+                        <button class="post-button">
+                            Post
+                        </button>
+                    </form>
+                </div>
+                <div class="box-img">
+                    <img src="Images/noddy.jpg" alt="chota bheem"  class="dp-img"/>
+                    <div class="tweet">
+                        <div class="user-info-tweet">
+                            <h4>Cartoon</h4>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus repellendus numquam odio placeat tenetur consectetur suscipit pariatur voluptatem voluptatum distinctio. Laudantium neque rem reiciendis non, nostrum magnam exercitationem, et dolore quasi, tenetur nulla. At et, atque minima nesciunt possimus fuga iste quae cupiditate recusandae tenetur facilis exercitationem aliquid ab deserunt.</p>
+                    </div>
+                </div>
+                <div class="box-img">
+                        <img src="Images/noddy.jpg" alt="chota bheem"  class="dp-img"/>
+                    <div class="tweet">
+                        <div class="user-info-tweet">
+                            <h4>Cartoon</h4>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus repellendus numquam odio placeat tenetur consectetur suscipit pariatur voluptatem voluptatum distinctio. Laudantium neque rem reiciendis non, nostrum magnam exercitationem, et dolore quasi, tenetur nulla. At et, atque minima nesciunt possimus fuga iste quae cupiditate recusandae tenetur facilis exercitationem aliquid ab deserunt.</p>
+                        <img src="Images/jackie.jpg" class="tweet-img">
+                    </div>
+                </div>
+                <div class="box-img">
+                    <img src="Images/noddy.jpg" alt="chota bheem"  class="dp-img"/>
+                    <div class="tweet">
+                        <div class="user-info-tweet">
+                            <h4>Cartoon</h4>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus repellendus numquam odio placeat tenetur consectetur suscipit pariatur voluptatem voluptatum distinctio. Laudantium neque rem reiciendis non, nostrum magnam exercitationem, et dolore quasi, tenetur nulla. At et, atque minima nesciunt possimus fuga iste quae cupiditate recusandae tenetur facilis exercitationem aliquid ab deserunt.</p>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="right-side">
+                <div class="trending">
+                    <h3>What's happening</h3>
+                    <div class="trend">
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate neque perferendis dolore?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate neque perferendis dolore?</p>
+                    </div>
+                </div>
+            </section> 
+        </div>
+    </body>
+</html>

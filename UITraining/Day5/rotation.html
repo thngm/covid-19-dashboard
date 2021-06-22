@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>fan rotation</title>
+        <style>
+            .img-container{
+                margin: auto;          
+            }
+            img{
+                animation: rotation 2s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+            }
+        
+            @keyframes rotation {
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="img-container">
+            <img  src="Images/fan.png" alt="fan image">
+        </div>
+    </body>
+</html>

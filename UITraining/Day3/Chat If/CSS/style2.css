@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+
+.chat-container{
+        padding: 3em;
+        position: relative;
+        background-color: whitesmoke;    
+}
+
+.chat-header{
+    display: flex;
+    justify-content:space-between;
+    background-color: coral;
+    padding:5px;
+   
+}
+.chat-header i{
+    margin-top: 30px;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.sender-container{
+    display:flex;
+}
+
+.receiver-container{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.sender-container .text,
+.receiver-container .text{
+    border-color: grey;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 1em;
+    color: black;
+    width:fit-content;
+}
+
+.sender-container .text{
+    background-color: lightblue;
+}
+
+.receiver-container .text{
+    background-color: lightgreen;
+}
+
+
+.delivered-time {
+    font-size: small;
+    color: grey;
+}
+
+.send-msg-container{
+    display: flex;
+    width: 100%;
+    top: auto;
+    bottom: 50px;
+    left: 20px;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.type-msg-container{
+    width: 90%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border:1px solid grey ;
+    border-radius: 25px;
+   
+}
+
+.button-container{
+    justify-content:space-evenly;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.button-container i{
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.send-button{
+    position: absolute;
+    font-size: 2em;
+    padding: 25px;
+    border-radius: 50%;
+    background-color: lightblue;
+    left: 38em;
+    top: 22.25em;
+}
+
+
