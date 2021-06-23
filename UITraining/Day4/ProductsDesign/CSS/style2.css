@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+.container{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+.title{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 800px;
+    margin-top: 2em;
+}
+.highlight{
+    font-weight: bolder;
+}
+.description{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500px;
+    margin-bottom: 40px;
+}
+.description span{
+    color:#4a90e2;
+}
+.mailId{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-weight: bold;
+}
+.items-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width:100%;
+}
+.product{
+    margin:16px;
+    width: 30%;
+}
+.product img{
+    width: 100%;
+} 
+.tag-line{
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+.tag-line span{
+    color: #b8e986;
+}
+.logo-container{
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    margin: 3em;
+    width: 90px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    text-align: center;
+}
+footer{
+    margin: auto;
+    width: fit-content;
+    margin-top: 100px;
+    text-align: center;
+}
+.social-media-platforms{
+    margin: 64px auto;
+    word-spacing: 20px;
+}
+i{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+.end-phrase{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+@media screen and (max-width:500px) {
+    .container{
+       background-color: #000;
+       color: #fff;
+       padding:0;
+       padding-top: 40px;
+       padding-bottom: 10px;
+    }
+    .mailId{
+        position: relative;
+        top: 0;
+        left: 165px;
+        font-size: small;
+    }
+    .description{
+        width: 100%;
+        margin: auto;
+        font-size: 26px;
+        text-align: center;
+    }
+    .tag-line{
+        font-size: 20px;
+    }
+    .items-container{
+        padding: 20px;
+        width: 100vw;
+        display: block;
+    }
+    .product{
+        width: 100%;
+        margin:auto;
+        margin-bottom: 5%;
+    }
+    .logo-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 45%;
+        margin: 2em 0;
+    }
+    .logo img{
+        margin-top: auto;
+    }
+    .end-phrase{
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+}
+   
